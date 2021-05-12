@@ -1,0 +1,24 @@
+{
+  "name": "test-rollup-shake-umd",
+  "version": "1.0.0",
+  "description": "test if UMD dependency being tree shaking away by rollup",
+  "main": "a.js",
+  "scripts": {
+    "test": "script/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loynoir/test-rollup-shake-umd.git"
+  },
+  "author": "loynoir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loynoir/test-rollup-shake-umd/issues"
+  },
+  "homepage": "https://github.com/loynoir/test-rollup-shake-umd#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.47.0"
+  }
+}
