@@ -1,0 +1,2 @@
+#!/bin/bash
+rollup -c rollup.config.js|grep -C 2 esprima && echo ERR || echo OK
